@@ -6,6 +6,6 @@ target 'RimhTypingLetters_Example' do
   target 'RimhTypingLetters_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end
