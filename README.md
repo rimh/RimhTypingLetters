@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'RimhTypingLetters'
 ```
 
-## Author
-
-ming, sleepysheep.style@gmail.com
-
 ## License
 
 RimhTypingLetters is available under the MIT license. See the LICENSE file for more info.

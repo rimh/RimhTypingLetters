@@ -1,0 +1,6 @@
+framework module RimhTypingLetters {
+  umbrella header "RimhTypingLetters-umbrella.h"
+
+  export *
+  module * { export * }
+}

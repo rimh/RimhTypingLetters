@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13DFBA472A5EEC6BDE9A75E4F27F8DBC /* Pods-RimhTypingLetters_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D469BF353A85D93926232E2E47033 /* Pods-RimhTypingLetters_Example-dummy.m */; };
+		1D4B3FA86D62A4B6C4CC2625C3D6E59C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1E0402075742EF14829E37C434E35075 /* Pods-RimhTypingLetters_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F410FCC54728E2BEDE79A0D8A15E12 /* Pods-RimhTypingLetters_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63123224ECBCCF5D7C6BD57542FBFA09 /* Pods-RimhTypingLetters_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5110AA4DCBE53E4466678CA1DE0DACFF /* Pods-RimhTypingLetters_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63272B32267073B3DADC8E3F2E3EE7CC /* TypingLetterUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE8FECFE57311E868914BE531FE2DB9 /* TypingLetterUITextView.swift */; };
+		6EBFAB0FEC478D58A8D97E87A62BE6A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A0B25657EE716957AFD00F769D65ACB9 /* Pods-RimhTypingLetters_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC0734D1CAE86204C81098A1A2110F /* Pods-RimhTypingLetters_Tests-dummy.m */; };
+		A855061ABE12941420003A1F0986FB91 /* UILabel+RimhTypingLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE8DC2B4501A6F23437DA0D88A213D /* UILabel+RimhTypingLetter.swift */; };
+		B8078FE0A6C77F0D23BF26E6F5F8AF88 /* RimhTypingLetters-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 528C989DC5E25AED98BCD601534B4981 /* RimhTypingLetters-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1A709D61B3602C1E1E1050F1EAF881C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D8803FD60AEA465217B8B3B95F2A688A /* RimhTypingLetters-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7A016D3961F8C2361E126AC656938 /* RimhTypingLetters-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7691C667B1707DEB26E50436B8F7DB59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F6E1FEAA146CE13D30F2C89C96B89F;
+			remoteInfo = RimhTypingLetters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D8D41BBE37A501F245272DF8B531411 /* Pods-RimhTypingLetters_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RimhTypingLetters_Tests-resources.sh"; sourceTree = "<group>"; };
+		0FE8FECFE57311E868914BE531FE2DB9 /* TypingLetterUITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypingLetterUITextView.swift; path = RimhTypingLetters/Classes/TypingLetterUITextView.swift; sourceTree = "<group>"; };
+		14B5694095550DB54B80F1E9557F77B3 /* Pods-RimhTypingLetters_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RimhTypingLetters_Tests.modulemap"; sourceTree = "<group>"; };
+		1648B2A797DB9A9ABFF0B943947B827A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E7121550AAF2D73A67E447D0D79ED9 /* Pods-RimhTypingLetters_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RimhTypingLetters_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1B500FA94FD4A6486A857C66F666B84A /* Pods-RimhTypingLetters_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RimhTypingLetters_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2035D598641FA9231B14A865AA8679DF /* Pods-RimhTypingLetters_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RimhTypingLetters_Example-resources.sh"; sourceTree = "<group>"; };
+		2379BC018F3A6C9BA9583FAB5DDCC15A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC7A016D3961F8C2361E126AC656938 /* RimhTypingLetters-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RimhTypingLetters-dummy.m"; sourceTree = "<group>"; };
+		2D8A2710A8C3FEC3C46A867980480CD1 /* Pods_RimhTypingLetters_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RimhTypingLetters_Tests.framework; path = "Pods-RimhTypingLetters_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A22280E345EDEAD54A1E3261AA4F32 /* RimhTypingLetters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RimhTypingLetters.framework; path = RimhTypingLetters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F58B8A7577848EECF211ACBBFBBFC92 /* Pods-RimhTypingLetters_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RimhTypingLetters_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		43AE8DC2B4501A6F23437DA0D88A213D /* UILabel+RimhTypingLetter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+RimhTypingLetter.swift"; path = "RimhTypingLetters/Classes/UILabel+RimhTypingLetter.swift"; sourceTree = "<group>"; };
+		454C6938A8B15CBC8BDC5D5C2F809EBF /* Pods-RimhTypingLetters_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RimhTypingLetters_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FEC0734D1CAE86204C81098A1A2110F /* Pods-RimhTypingLetters_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RimhTypingLetters_Tests-dummy.m"; sourceTree = "<group>"; };
+		5110AA4DCBE53E4466678CA1DE0DACFF /* Pods-RimhTypingLetters_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RimhTypingLetters_Example-umbrella.h"; sourceTree = "<group>"; };
+		528C989DC5E25AED98BCD601534B4981 /* RimhTypingLetters-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RimhTypingLetters-umbrella.h"; sourceTree = "<group>"; };
+		55BCAB0B145EA6981ED9748CF27D2939 /* Pods_RimhTypingLetters_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RimhTypingLetters_Example.framework; path = "Pods-RimhTypingLetters_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E22A8DA7810ECBB1E60F312001A6FC6 /* Pods-RimhTypingLetters_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RimhTypingLetters_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F6D469BF353A85D93926232E2E47033 /* Pods-RimhTypingLetters_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RimhTypingLetters_Example-dummy.m"; sourceTree = "<group>"; };
+		8DE72BAA344FC348467DA8B1D2FF725D /* Pods-RimhTypingLetters_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RimhTypingLetters_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		90A77CAC7607A2679E34EBABCEEC48F7 /* Pods-RimhTypingLetters_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RimhTypingLetters_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97BCBCBC86059EF83C584333F0C17033 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F65A1DC90999999CFC89AC016A9E18E /* RimhTypingLetters.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RimhTypingLetters.xcconfig; sourceTree = "<group>"; };
+		B0B5FD67A472CD6FD33B01632EE4C4F7 /* RimhTypingLetters.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RimhTypingLetters.modulemap; sourceTree = "<group>"; };
+		B63B0734EB5EECBA7D909508C2AD0B99 /* RimhTypingLetters-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RimhTypingLetters-prefix.pch"; sourceTree = "<group>"; };
+		CA2C2242CB592CD3C9238201935DB633 /* Pods-RimhTypingLetters_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RimhTypingLetters_Example.modulemap"; sourceTree = "<group>"; };
+		E0F3F8C6557E37D879E27610060B9718 /* Pods-RimhTypingLetters_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RimhTypingLetters_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2E39EEDC056B968F0893D6116D54DE4 /* Pods-RimhTypingLetters_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RimhTypingLetters_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8A4492E493B41CE9160400900E6DCF5 /* Pods-RimhTypingLetters_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RimhTypingLetters_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9F410FCC54728E2BEDE79A0D8A15E12 /* Pods-RimhTypingLetters_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RimhTypingLetters_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		204C4E67D7C200A7E3C100BED4D9D3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBFAB0FEC478D58A8D97E87A62BE6A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271018B080A7B3405680330118183F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4B3FA86D62A4B6C4CC2625C3D6E59C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA9D7630519A8AD3DDB2ED5307B932C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A709D61B3602C1E1E1050F1EAF881C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66EABE30A94A1325606C49309185A8C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2379BC018F3A6C9BA9583FAB5DDCC15A /* Info.plist */,
+				B0B5FD67A472CD6FD33B01632EE4C4F7 /* RimhTypingLetters.modulemap */,
+				9F65A1DC90999999CFC89AC016A9E18E /* RimhTypingLetters.xcconfig */,
+				2AC7A016D3961F8C2361E126AC656938 /* RimhTypingLetters-dummy.m */,
+				B63B0734EB5EECBA7D909508C2AD0B99 /* RimhTypingLetters-prefix.pch */,
+				528C989DC5E25AED98BCD601534B4981 /* RimhTypingLetters-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RimhTypingLetters";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8EA6018E8CD715FFF9AA9142E2501B74 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C6E01AD94578D523826604A30155F4E0 /* Products */,
+				9ADE1A102F280245D4B8525EC4EACBC7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA6018E8CD715FFF9AA9142E2501B74 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4839F10CB916E3600EF15B5C7DA1346 /* RimhTypingLetters */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9ADE1A102F280245D4B8525EC4EACBC7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C888A6FCBFD18E45E324F4C441B42655 /* Pods-RimhTypingLetters_Example */,
+				AE716605B153DD58657821EBEC02B56D /* Pods-RimhTypingLetters_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE716605B153DD58657821EBEC02B56D /* Pods-RimhTypingLetters_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1648B2A797DB9A9ABFF0B943947B827A /* Info.plist */,
+				14B5694095550DB54B80F1E9557F77B3 /* Pods-RimhTypingLetters_Tests.modulemap */,
+				454C6938A8B15CBC8BDC5D5C2F809EBF /* Pods-RimhTypingLetters_Tests-acknowledgements.markdown */,
+				7E22A8DA7810ECBB1E60F312001A6FC6 /* Pods-RimhTypingLetters_Tests-acknowledgements.plist */,
+				4FEC0734D1CAE86204C81098A1A2110F /* Pods-RimhTypingLetters_Tests-dummy.m */,
+				3F58B8A7577848EECF211ACBBFBBFC92 /* Pods-RimhTypingLetters_Tests-frameworks.sh */,
+				0D8D41BBE37A501F245272DF8B531411 /* Pods-RimhTypingLetters_Tests-resources.sh */,
+				E9F410FCC54728E2BEDE79A0D8A15E12 /* Pods-RimhTypingLetters_Tests-umbrella.h */,
+				E2E39EEDC056B968F0893D6116D54DE4 /* Pods-RimhTypingLetters_Tests.debug.xcconfig */,
+				90A77CAC7607A2679E34EBABCEEC48F7 /* Pods-RimhTypingLetters_Tests.release.xcconfig */,
+			);
+			name = "Pods-RimhTypingLetters_Tests";
+			path = "Target Support Files/Pods-RimhTypingLetters_Tests";
+			sourceTree = "<group>";
+		};
+		B4839F10CB916E3600EF15B5C7DA1346 /* RimhTypingLetters */ = {
+			isa = PBXGroup;
+			children = (
+				0FE8FECFE57311E868914BE531FE2DB9 /* TypingLetterUITextView.swift */,
+				43AE8DC2B4501A6F23437DA0D88A213D /* UILabel+RimhTypingLetter.swift */,
+				66EABE30A94A1325606C49309185A8C2 /* Support Files */,
+			);
+			name = RimhTypingLetters;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6E01AD94578D523826604A30155F4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55BCAB0B145EA6981ED9748CF27D2939 /* Pods_RimhTypingLetters_Example.framework */,
+				2D8A2710A8C3FEC3C46A867980480CD1 /* Pods_RimhTypingLetters_Tests.framework */,
+				39A22280E345EDEAD54A1E3261AA4F32 /* RimhTypingLetters.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C888A6FCBFD18E45E324F4C441B42655 /* Pods-RimhTypingLetters_Example */ = {
+			isa = PBXGroup;
+			children = (
+				97BCBCBC86059EF83C584333F0C17033 /* Info.plist */,
+				CA2C2242CB592CD3C9238201935DB633 /* Pods-RimhTypingLetters_Example.modulemap */,
+				E0F3F8C6557E37D879E27610060B9718 /* Pods-RimhTypingLetters_Example-acknowledgements.markdown */,
+				E8A4492E493B41CE9160400900E6DCF5 /* Pods-RimhTypingLetters_Example-acknowledgements.plist */,
+				7F6D469BF353A85D93926232E2E47033 /* Pods-RimhTypingLetters_Example-dummy.m */,
+				18E7121550AAF2D73A67E447D0D79ED9 /* Pods-RimhTypingLetters_Example-frameworks.sh */,
+				2035D598641FA9231B14A865AA8679DF /* Pods-RimhTypingLetters_Example-resources.sh */,
+				5110AA4DCBE53E4466678CA1DE0DACFF /* Pods-RimhTypingLetters_Example-umbrella.h */,
+				8DE72BAA344FC348467DA8B1D2FF725D /* Pods-RimhTypingLetters_Example.debug.xcconfig */,
+				1B500FA94FD4A6486A857C66F666B84A /* Pods-RimhTypingLetters_Example.release.xcconfig */,
+			);
+			name = "Pods-RimhTypingLetters_Example";
+			path = "Target Support Files/Pods-RimhTypingLetters_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24D226449C8E957D2256A3D21211D065 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63123224ECBCCF5D7C6BD57542FBFA09 /* Pods-RimhTypingLetters_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C64914390D2B719D0E7AE538BE8C8A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8078FE0A6C77F0D23BF26E6F5F8AF88 /* RimhTypingLetters-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC644E913F9A47F64B6715B74362E0B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0402075742EF14829E37C434E35075 /* Pods-RimhTypingLetters_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		580CE40D1A72FF64541A7CBDF6B0966A /* Pods-RimhTypingLetters_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8D7DA2D347942D03775CFBA49977E6 /* Build configuration list for PBXNativeTarget "Pods-RimhTypingLetters_Tests" */;
+			buildPhases = (
+				4EA8DB6052CBA9D0C60E70F82D07D521 /* Sources */,
+				204C4E67D7C200A7E3C100BED4D9D3B1 /* Frameworks */,
+				EC644E913F9A47F64B6715B74362E0B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RimhTypingLetters_Tests";
+			productName = "Pods-RimhTypingLetters_Tests";
+			productReference = 2D8A2710A8C3FEC3C46A867980480CD1 /* Pods_RimhTypingLetters_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88D367807784A62942E324820011C3F8 /* Pods-RimhTypingLetters_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE94F010784635D2A48522D7A878B68E /* Build configuration list for PBXNativeTarget "Pods-RimhTypingLetters_Example" */;
+			buildPhases = (
+				ADEB32536B07AEFC3F51C37B5ACAF13E /* Sources */,
+				6EA9D7630519A8AD3DDB2ED5307B932C /* Frameworks */,
+				24D226449C8E957D2256A3D21211D065 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31931C3C04E6A5527224A4410EAAD70 /* PBXTargetDependency */,
+			);
+			name = "Pods-RimhTypingLetters_Example";
+			productName = "Pods-RimhTypingLetters_Example";
+			productReference = 55BCAB0B145EA6981ED9748CF27D2939 /* Pods_RimhTypingLetters_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5F6E1FEAA146CE13D30F2C89C96B89F /* RimhTypingLetters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CBC22E97E12A8B34C733E15EE73579 /* Build configuration list for PBXNativeTarget "RimhTypingLetters" */;
+			buildPhases = (
+				FFBBF2E11553B43AB1F5D6FEC620E7AF /* Sources */,
+				271018B080A7B3405680330118183F63 /* Frameworks */,
+				3C64914390D2B719D0E7AE538BE8C8A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RimhTypingLetters;
+			productName = RimhTypingLetters;
+			productReference = 39A22280E345EDEAD54A1E3261AA4F32 /* RimhTypingLetters.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C6E01AD94578D523826604A30155F4E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88D367807784A62942E324820011C3F8 /* Pods-RimhTypingLetters_Example */,
+				580CE40D1A72FF64541A7CBDF6B0966A /* Pods-RimhTypingLetters_Tests */,
+				A5F6E1FEAA146CE13D30F2C89C96B89F /* RimhTypingLetters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EA8DB6052CBA9D0C60E70F82D07D521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B25657EE716957AFD00F769D65ACB9 /* Pods-RimhTypingLetters_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB32536B07AEFC3F51C37B5ACAF13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DFBA472A5EEC6BDE9A75E4F27F8DBC /* Pods-RimhTypingLetters_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBBF2E11553B43AB1F5D6FEC620E7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8803FD60AEA465217B8B3B95F2A688A /* RimhTypingLetters-dummy.m in Sources */,
+				63272B32267073B3DADC8E3F2E3EE7CC /* TypingLetterUITextView.swift in Sources */,
+				A855061ABE12941420003A1F0986FB91 /* UILabel+RimhTypingLetter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E31931C3C04E6A5527224A4410EAAD70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RimhTypingLetters;
+			target = A5F6E1FEAA146CE13D30F2C89C96B89F /* RimhTypingLetters */;
+			targetProxy = 7691C667B1707DEB26E50436B8F7DB59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		049731F1C43D0447365D03646FB9316F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E39EEDC056B968F0893D6116D54DE4 /* Pods-RimhTypingLetters_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RimhTypingLetters_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RimhTypingLetters_Tests/Pods-RimhTypingLetters_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RimhTypingLetters_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3E8CFFAA22F00E0DB4CA559EE8249F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F65A1DC90999999CFC89AC016A9E18E /* RimhTypingLetters.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RimhTypingLetters/RimhTypingLetters-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RimhTypingLetters/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RimhTypingLetters/RimhTypingLetters.modulemap";
+				PRODUCT_NAME = RimhTypingLetters;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A84B6CAEC66E9C1E3DE871F18E11CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DE72BAA344FC348467DA8B1D2FF725D /* Pods-RimhTypingLetters_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RimhTypingLetters_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RimhTypingLetters_Example/Pods-RimhTypingLetters_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RimhTypingLetters_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EEEEB169FEEC6D819C2E673778B5C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A77CAC7607A2679E34EBABCEEC48F7 /* Pods-RimhTypingLetters_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RimhTypingLetters_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RimhTypingLetters_Tests/Pods-RimhTypingLetters_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RimhTypingLetters_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F588252075794E113C6A908CF19375E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F65A1DC90999999CFC89AC016A9E18E /* RimhTypingLetters.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RimhTypingLetters/RimhTypingLetters-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RimhTypingLetters/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RimhTypingLetters/RimhTypingLetters.modulemap";
+				PRODUCT_NAME = RimhTypingLetters;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F9906E8546FA5C9B2F41CDED431B7DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B500FA94FD4A6486A857C66F666B84A /* Pods-RimhTypingLetters_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RimhTypingLetters_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RimhTypingLetters_Example/Pods-RimhTypingLetters_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RimhTypingLetters_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74CBC22E97E12A8B34C733E15EE73579 /* Build configuration list for PBXNativeTarget "RimhTypingLetters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F588252075794E113C6A908CF19375E /* Debug */,
+				3E8CFFAA22F00E0DB4CA559EE8249F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8D7DA2D347942D03775CFBA49977E6 /* Build configuration list for PBXNativeTarget "Pods-RimhTypingLetters_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049731F1C43D0447365D03646FB9316F /* Debug */,
+				4EEEEB169FEEC6D819C2E673778B5C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE94F010784635D2A48522D7A878B68E /* Build configuration list for PBXNativeTarget "Pods-RimhTypingLetters_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A84B6CAEC66E9C1E3DE871F18E11CC0 /* Debug */,
+				F9906E8546FA5C9B2F41CDED431B7DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
