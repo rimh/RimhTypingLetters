@@ -34,7 +34,7 @@ import RimhTypingLetters
 For TextView:
 ```swift
 @IBOutlet weak var textview:TypingLetterUITextView!
-// You can specific delimiter to wrap the your content such as space.
+// You can specific delimiter to wrap the content such as a space.
 textview.typeText(message, delimiter: " ", typingSpeedPerChar: 0.05, didResetContent: true) {
             // complete action after finished typing
 }
