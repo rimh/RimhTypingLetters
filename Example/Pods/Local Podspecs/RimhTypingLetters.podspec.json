@@ -1,6 +1,6 @@
 {
   "name": "RimhTypingLetters",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A simple typing animation for UITextView and UILabel.",
   "description": "A simple typing animation for UITextView and UILabel. It is simple use with small codes.",
   "homepage": "https://github.com/rimh/RimhTypingLetters",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/rimh/RimhTypingLetters.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

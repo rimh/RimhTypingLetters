@@ -1,5 +1,5 @@
 PODS:
-  - RimhTypingLetters (0.1.0)
+  - RimhTypingLetters (0.1.1)
 
 DEPENDENCIES:
   - RimhTypingLetters (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  RimhTypingLetters: 383ddeeebdc69ed0d95173e311952dc178b41f72
+  RimhTypingLetters: 66a79bcc20cd6136125859d91cbdf41b67402b4d
 
 PODFILE CHECKSUM: dcbb698b0a21a2ba3b4c3273097562dae5f8b865
 
